@@ -1,63 +1,62 @@
 <h1>M2.895 Visualización de datos, abril 2025, Fernando Moreno Leira </h1>
-<h2>GRUPO I (Técnicas básicas i populares): 108. Stacked Bar Graphs</h1>
-    <h3>Representación en Infogram
-</h2>
+<h2>GRUPO I (Técnicas básicas i populares): 108. Stacked Bar Graphs</h2>
+<h3>Representación en Infogram</h3>
 <div class="flourish-embed flourish-chart" data-src="visualisation/22428533">
     <script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img
             src="https://public.flourish.studio/visualisation/22428533/thumbnail" width="100%"
             alt="chart visualization" /></noscript>
 </div>
 
-<h2>GRUPO II (Habituales y conocidas en ámbitos específicos y de expertos): 209. Stream Graph</h1>
-    <p>El stream graph es útil para representar los cambios en una serie de variables a lo largo del tiempo,
-        especialmente cuando la proporción entre los distintos factores cambian. En esta visualización utilizo datos del
-        mix de producción electrica de Alemania en enero de 2025. Los datos fueron descargados de <a
-            href="https://www.smard.de/en/downloadcenter/download-market-data/?downloadAttributes=%7B%22selectedCategory%22:1,%22selectedSubCategory%22:1,%22selectedRegion%22:%22DE%22,%22selectedFileType%22:%22CSV%22,%22from%22:1742770800000,%22to%22:1743717599999%7D">smard.de</a>,
-        y muestran en incrementos de 15 minutos cuanta energía eléctrica (en MWh) se produjo en este país a partir de
-        distintas fuentes, renovables y no renovables.</p>
-    <p>Generé dos visualizaciones de los mismos datos, una usando <a
-            href="http://flourish.studio/">http://flourish.studio/</a> y otra usando <a
-            href="http://infogram.com/">http://infogram.com/</a>, pero comparar las diferencias entre estos dos
-        servicios. En ambos casos utilicé el mismo esquema de colores (definidos manualmente), para ayudar a diferenciar
-        entre las fuentes renovables (colores verdes) y las no renovables (mostradas en tonos naranjas).</p>
+<h2>GRUPO II (Habituales y conocidas en ámbitos específicos y de expertos): 209. Stream Graph</h2>
+<p>El stream graph es útil para representar los cambios en una serie de variables a lo largo del tiempo,
+    especialmente cuando la proporción entre los distintos factores cambian. En esta visualización utilizo datos del
+    mix de producción electrica de Alemania en enero de 2025. Los datos fueron descargados de <a
+        href="https://www.smard.de/en/downloadcenter/download-market-data/?downloadAttributes=%7B%22selectedCategory%22:1,%22selectedSubCategory%22:1,%22selectedRegion%22:%22DE%22,%22selectedFileType%22:%22CSV%22,%22from%22:1742770800000,%22to%22:1743717599999%7D">smard.de</a>,
+    y muestran en incrementos de 15 minutos cuanta energía eléctrica (en MWh) se produjo en este país a partir de
+    distintas fuentes, renovables y no renovables.</p>
+<p>Generé dos visualizaciones de los mismos datos, una usando <a
+        href="http://flourish.studio/">http://flourish.studio/</a> y otra usando <a
+        href="http://infogram.com/">http://infogram.com/</a>, pero comparar las diferencias entre estos dos
+    servicios. En ambos casos utilicé el mismo esquema de colores (definidos manualmente), para ayudar a diferenciar
+    entre las fuentes renovables (colores verdes) y las no renovables (mostradas en tonos naranjas).</p>
 
-    <h3>Representación en Flourish
-</h2>
+<h3>Representación en Flourish</h3>
+
 <p><i>Flourish</i> destaca en mi opinión por las mejores opciones de customización y anotación de la gráfica generada,
     así como la opción de añadir título y pie al diagrama. En mi opinión tiene el problema de que no se puede definir la
     escala del eje Y, por lo que comparaciones cualitativas entre las distintas series son posibles, pero el valor
-    absoluto de cada fuente solo está disponible via el tooltip al mover el ratón sobre la gráfica.</p>
+    absoluto de cada fuente solo está disponible vía el tooltip al mover el ratón sobre la gráfica. La interactividad
+    para seleccionar qué series de datos deben ser mostradas tampoco es muy cómoda.</p>
 <div class="flourish-embed flourish-chart" data-src="visualisation/22427249">
     <script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img
             src="https://public.flourish.studio/visualisation/22427249/thumbnail" width="100%"
             alt="chart visualization" /></noscript>
 </div>
 
-<h3>Representación en Infogram</h2>
-    <p>Por su parte, la representación de <i>Infogram</i> es mejor en cuanto a interactividad, con un sistema mucho más
-        intuitivo para mostrar y ocultar las distintas series de datos. La función de highlighting de cada una de las
-        series al pasar el ratón por encima ayuda a diferenciarlas.</p>
-    <div class="infogram-embed" data-id="a8bbdbc5-8d3d-48a6-b0b5-b38bf5c696be" data-type="interactive"
-        data-title="Stream_graph_15min_2_weeks energy production germany"></div>
-    <script>!function (e, n, i, s) { var d = "InfogramEmbeds"; var o = e.getElementsByTagName(n)[0]; if (window[d] && window[d].initialized) window[d].process && window[d].process(); else if (!e.getElementById(i)) { var r = e.createElement(n); r.async = 1, r.id = i, r.src = s, o.parentNode.insertBefore(r, o) } }(document, "script", "infogram-async", "https://e.infogram.com/js/dist/embed-loader-min.js");</script>
-    <div
-        style="padding:8px 0;font-family:Arial!important;font-size:13px!important;line-height:15px!important;text-align:center;border-top:1px solid #dadada;margin:0 30px">
-        <a href="https://infogram.com/a8bbdbc5-8d3d-48a6-b0b5-b38bf5c696be"
-            style="color:#989898!important;text-decoration:none!important;" target="_blank">Stream_graph_15min_2_weeks
-            energy production germany</a><br><a href="https://infogram.com"
-            style="color:#989898!important;text-decoration:none!important;" target="_blank" rel="nofollow">Infogram</a>
-    </div>
+<h3>Representación en Infogram</h3>
+<p>Por su parte, la representación de <i>Infogram</i> es mejor en cuanto a interactividad, con un sistema mucho más
+    intuitivo para mostrar y ocultar las distintas series de datos. La función de highlighting de cada una de las
+    series al pasar el ratón por encima ayuda a diferenciarlas.</p>
+<div class="infogram-embed" data-id="a8bbdbc5-8d3d-48a6-b0b5-b38bf5c696be" data-type="interactive"
+    data-title="Stream_graph_15min_2_weeks energy production germany"></div>
+<script>!function (e, n, i, s) { var d = "InfogramEmbeds"; var o = e.getElementsByTagName(n)[0]; if (window[d] && window[d].initialized) window[d].process && window[d].process(); else if (!e.getElementById(i)) { var r = e.createElement(n); r.async = 1, r.id = i, r.src = s, o.parentNode.insertBefore(r, o) } }(document, "script", "infogram-async", "https://e.infogram.com/js/dist/embed-loader-min.js");</script>
+<div
+    style="padding:8px 0;font-family:Arial!important;font-size:13px!important;line-height:15px!important;text-align:center;border-top:1px solid #dadada;margin:0 30px">
+    <a href="https://infogram.com/a8bbdbc5-8d3d-48a6-b0b5-b38bf5c696be"
+        style="color:#989898!important;text-decoration:none!important;" target="_blank">Stream_graph_15min_2_weeks
+        energy production germany</a><br><a href="https://infogram.com"
+        style="color:#989898!important;text-decoration:none!important;" target="_blank" rel="nofollow">Infogram</a>
+</div>
 
 
-    <h2>GRUPO III (Menos habituales o más específicos): 320. UpSet: Visualizing Intersecting Sets</h1>
-        <p>UpSet es una técnica que facilita la interpretación de sets de datos con intersecciones. Se presenta como una
-            mejora con respecto a un diagrama de Venn, y es útil cuando el número de sets es alto.</p>
-        <p>Utilizo como conjunto de datos las propiedades de los personajes de Star Wars, obtenidos de esta fuente: <a
-                href="https://www.kaggle.com/datasets/jsphyg/star-wars?resource=download">https://www.kaggle.com/datasets/jsphyg/star-wars?resource=download</a>.
-            En concreto, el diagrama muestra la intersección entre el planeta de origen y la especie de los 81
-            personajes contenidos en el dataset</p>
-        <h3>Representación en upset.js.org/app
-    </h2>
-    <div class="upset2"><iframe
-            src="https://upset.js.org/app/embed.html?p=N4IgdghgtgpiBcIDOAXCAnA%2Bgdw0zAJgGYAEAtCQDID2AxhADYgA0IBMSt6AlgA4rdqYBCG5Re1dChgESRdNSglUGHHkJEWICAFcUAC0kiAqkhjotMBjFhgUSBAG0QlHQGsYJAMpuAnrgYPC1ZKGG4IEgB5dABzCEgtABEMAxIANQh2YJAATWoCCC0ACXjvagZqLUiAI24yAHVSgGkYMGparQBRcXNJEgAFRl4IATA4VgBBSDduMG8-AKCtQYIoAEuSCahuAoZC1gBFHTqAcSESAClZ4VYAWQhaT3rZgh0tC4xLz4AhWbcHVgAYWoOjsJES1GobjerAASjBfFoAGLXZbUTzJWAKG4gJq%2BCokeE477fMgADi0gLIAGZ%2BpEtLCAExkRKMrSUeIEagkQGMHhIJDhYntCJImAoFDveIxbliiVaE6tcyMEhFHQADwZ1DMJAAKtxaJVWF4dLx0DZPKFMuZvG0PFoJhB8REvDBaDp0PsQBNVtxPQwBtxxZLWN8INwA9E4glQ9wYjEkOCMG4GHH9NJsr9qiQkZIUKCvbz%2BOG5v19BAkFBC-o-eg9CQAHNQbDjECJVpxbJFZXeXxgV4MPZaJrxUofdB1gEudrUEMgW7nBcGKtaLwQbAkRUT5Wr-Tbeb%2BRhLVj1GQxTxTASDjgOpAQABW9-SrRQ5oFlIgxdmhJgmuNEAANwgc8ojNDgpyXfQbV1RgAC9Zi6WDPRIb4eAIc9sjXWoxhIepzRxEdBx0KcLj7EhOnQJAjRAXkBSFTZ%2ByMVhoiouYmnwsADS0b58hrQlITcbiIFgzx7gYapiIVRhWnIyjqMSdBfHYOY0m1LQDm4AByT0ujAIhfETAA5Dg50oakaQAdm4t0PHlVgMiYABdVgRlfBx4EcZyQDNaheHc0BsB2AxYRGQR3McAAGAA6ABGMlmGimLGQSqKLK8qC0xQEKBDUjzooANhSgAWLyDAtEQAJgOIQAAX1YMx7CcUBIFgEQvH6TA1SrHF6HQAhZkYbgUEReAios1grBsdyQAigBqZKitmwqktmormEZOa1sZCz5uYakYt26kAFZZqO5gioWk6Ypi5gjrJWaYtq5hmugOBECKepMBglBIVmVtev6yBU2GhBCpASaoHCiL1uYca4vWgBOPaEccuqXta97PuMMA3DabAeowQHBpB%2BAwYh8LqWYGKtrOo7CqO8ajpRtHwFekQPswYFzUHcItABgbgZGs7wesSGnDW6lKaK6GjrWo6jtR57WYxkAOcMiBqkhPnCYFoaRrWkWpqcQr4uuqnmaVlq3pAdrMAU6gdm1vrdZJg3yZEGKduShmnvR62Oa54j6DsJ2icFhBKcNsWPKR47zrSlmrbajrdUCzTrEE1h%2BaBvWI4m0XwsZQrqWh6kSsTtnMcwWF8VnfRQ5dkbI-djyi720vy8tyvVc%2Bi4ZHLBuc5J5uC6calvZuo7GUVv3k7tkZDG2Hh4kH4mm-zo2PKKm6iqlzvZ6r5IDEUP1V-D%2BAR83xxt-OveZ%2BV-3PomBgsggFes51oeRuSqPwpuxkySoy8oaKA2FQpCEiPwQQYB-IgGGrwa2-VUCzFoCgAAknYcwZhUHQK0NsYQ8Af5Vk1PAYWNh%2BAjSIIwMwrBUzbElPAGKEVoYgEkFkJwIBs5ry0EnRWyBJo4KEAgUA8DrYNS0C8X8CBrp1RAAARx0OYIM4VUZAA"
-            title="iframe upset" width="100%" height="800"></iframe></div>
+<h2>GRUPO III (Menos habituales o más específicos): 320. UpSet: Visualizing Intersecting Sets</h2>
+<p>UpSet es una técnica que facilita la interpretación de sets de datos con intersecciones. Se presenta como una
+    mejora con respecto a un diagrama de Venn, y es útil cuando el número de sets es alto.</p>
+<p>Utilizo como conjunto de datos las propiedades de los personajes de Star Wars, obtenidos de esta fuente: <a
+        href="https://www.kaggle.com/datasets/jsphyg/star-wars?resource=download">https://www.kaggle.com/datasets/jsphyg/star-wars?resource=download</a>.
+    En concreto, el diagrama muestra la intersección entre el planeta de origen y la especie de los 81 personajes contenidos en el dataset</p>
+
+<h3>La representación interactiva se puede regenerar subiendo el dataset <a href="https://fmorenoleira.github.io/M2_859/star_wars_df.csv">data</a> en <a href="https://upset.js.org/app/">upset.js.org/app</a></h3>
+<div class="upset2"><iframe
+        src="https://upset.js.org/app/embed.html?p=N4IgdghgtgpiBcIDOAXCAnA%2Bgdw0zAJgGYAEAtCQDID2AxhADYgA0IBMSt6AlgA4rdqYBCG5Re1dChgESRdNSglUGHHkJEWICAFcUAC0kiAqkhjotMBjFhgUSBAG0QlHQGsYJAMpuAnrgYPC1ZKGG4IEgB5dABzCEgtABEMAxIANQh2YJAATWoCCC0ACXjvagZqLUiAI24yAHVSgGkYMGparQBRcXNJEgAFRl4IATA4VgBBSDduMG8-AKCtQYIoAEuSCahuAoZC1gBFHTqAcSESAClZ4VYAWQhaT3rZgh0tC4xLz4AhWbcHVgAYWoOjsJES1GobjerAASjBfFoAGLXZbUTzJWAKG4gJq%2BCokeE477fMgADi0gLIAGZ%2BpEtLCAExkRKMrSUeIEagkQGMHhIJDhYntCJImAoFDveIxbliiVaE6tcyMEhFHQADwZ1DMJAAKtxaJVWF4dLx0DZPKFMuZvG0PFoJhB8REvDBaDp0PsQBNVtxPQwBtxxZLWN8INwA9E4glQ9wYjEkOCMG4GHH9NJsr9qiQkZIUKCvbz%2BOG5v19BAkFBC-o-eg9CQAHNQbDjECJVpxbJFZXeXxgV4MPZaJrxUofdB1gEudrUEMgW7nBcGKtaLwQbAkRUT5Wr-Tbeb%2BRhLVj1GQxTxTASDjgOpAQABW9-SrRQ5oFlIgxdmhJgmuNEAANwgc8ojNDgpyXfQbV1RgAC9Zi6WDPRIb4eAIc9sjXWoxhIepzRxEdBx0KcLj7EhOnQJAjRAXkBSFTZ%2ByMVhoiouYmnwsADS0b58hrQlITcbiIFgzx7gYapiIVRhWnIyjqMSdBfHYOY0m1LQDm4AByT0ujAIhfETAA5Dg50oakaQAdm4t0PHlVgMiYABdVgRlfBx4EcZyQDNaheHc0BsB2AxYRGQR3McAAGAA6ABGMlmGimLGQSqKLK8qC0xQEKBDUjzooANhSgAWLyDAtEQAJgOIQAAX1YMx7CcUBIFgEQvH6TA1SrHF6HQAhZkYbgUEReAios1grBsdyQAigBqZKitmwqktmormEZOa1sZCz5uYakYt26kAFZZqO5gioWk6Ypi5gjrJWaYtq5hmugOBECKepMBglBIVmVtev6yBU2GhBCpASaoHCiL1uYca4vWgBOPaEccuqXta97PuMMA3DabAeowQHBpB%2BAwYh8LqWYGKtrOo7CqO8ajpRtHwFekQPswYFzUHcItABgbgZGs7wesSGnDW6lKaK6GjrWo6jtR57WYxkAOcMiBqkhPnCYFoaRrWkWpqcQr4uuqnmaVlq3pAdrMAU6gdm1vrdZJg3yZEGKduShmnvR62Oa54j6DsJ2icFhBKcNsWPKR47zrSlmrbajrdUCzTrEE1h%2BaBvWI4m0XwsZQrqWh6kSsTtnMcwWF8VnfRQ5dkbI-djyi720vy8tyvVc%2Bi4ZHLBuc5J5uC6calvZuo7GUVv3k7tkZDG2Hh4kH4mm-zo2PKKm6iqlzvZ6r5IDEUP1V-D%2BAR83xxt-OveZ%2BV-3PomBgsggFes51oeRuSqPwpuxkySoy8oaKA2FQpCEiPwQQYB-IgGGrwa2-VUCzFoCgAAknYcwZhUHQK0NsYQ8Af5Vk1PAYWNh%2BAjSIIwMwrBUzbElPAGKEVoYgEkFkJwIBs5ry0EnRWyBJo4KEAgUA8DrYNS0C8X8CBrp1RAAARx0OYIM4VUZAA"
+        title="iframe upset" width="100%" height="800"></iframe></div>
