@@ -18,11 +18,15 @@
     <p>Generé dos visualizaciones de los mismos datos, una usando <a
             href="http://flourish.studio/">http://flourish.studio/</a> y otra usando <a
             href="http://infogram.com/">http://infogram.com/</a>, pero comparar las diferencias entre estos dos
-        servicios.</p>
+        servicios. En ambos casos utilicé el mismo esquema de colores (definidos manualmente), para ayudar a diferenciar
+        entre las fuentes renovables (colores verdes) y las no renovables (mostradas en tonos naranjas).</p>
 
     <h3>Representación en Flourish
 </h2>
-<p>Flourish destaca en mi opinión por las opción de customización y anotación de la gráfica generada</p>
+<p><i>Flourish</i> destaca en mi opinión por las mejores opciones de customización y anotación de la gráfica generada,
+    así como la opción de añadir título y pie al diagrama. En mi opinión tiene el problema de que no se puede definir la
+    escala del eje Y, por lo que comparaciones cualitativas entre las distintas series son posibles, pero el valor
+    absoluto de cada fuente solo está disponible via el tooltip al mover el ratón sobre la gráfica.</p>
 <div class="flourish-embed flourish-chart" data-src="visualisation/22427249">
     <script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img
             src="https://public.flourish.studio/visualisation/22427249/thumbnail" width="100%"
@@ -30,6 +34,9 @@
 </div>
 
 <h3>Representación en Infogram</h2>
+    <p>Por su parte, la representación de <i>Infogram</i> es mejor en cuanto a interactividad, con un sistema mucho más
+        intuitivo para mostrar y ocultar las distintas series de datos. La función de highlighting de cada una de las
+        series al pasar el ratón por encima ayuda a diferenciarlas.</p>
     <div class="infogram-embed" data-id="a8bbdbc5-8d3d-48a6-b0b5-b38bf5c696be" data-type="interactive"
         data-title="Stream_graph_15min_2_weeks energy production germany"></div>
     <script>!function (e, n, i, s) { var d = "InfogramEmbeds"; var o = e.getElementsByTagName(n)[0]; if (window[d] && window[d].initialized) window[d].process && window[d].process(); else if (!e.getElementById(i)) { var r = e.createElement(n); r.async = 1, r.id = i, r.src = s, o.parentNode.insertBefore(r, o) } }(document, "script", "infogram-async", "https://e.infogram.com/js/dist/embed-loader-min.js");</script>
