@@ -1,6 +1,10 @@
 <h1>M2.895 Visualización de datos, abril 2025, Fernando Moreno Leira </h1>
 <h2>GRUPO I (Técnicas básicas i populares): 108. Stacked Bar Graphs</h2>
-<p>Se utilizan gráficos de barras apiladas para comparar las proporciones de distintas categorías. En el diagrama se muestran los resultados de las elecciones al Bundestag alemán desde la segunda guerra mundial, concretamente el porcentaje de <a href="https://es.wikipedia.org/wiki/Sistema_electoral_de_Alemania#Segundo_voto">segundos votos</a> obtenidos por cada partido.</p>
+<p>Se utilizan gráficos de barras apiladas para comparar las proporciones de distintas categorías. En el diagrama se
+    muestran los resultados de las elecciones al Bundestag alemán desde la segunda guerra mundial, concretamente el
+    porcentaje de <a href="https://es.wikipedia.org/wiki/Sistema_electoral_de_Alemania#Segundo_voto">segundos votos</a>
+    obtenidos por cada partido. Los datos están extraídos de la <a
+        href="https://www.bundestag.de/parlament/wahlen/ergebnisse_seit1949-244692">página del parlamento alemán</a></p>
 <p>Representación en Infogram</p>
 <div class="flourish-embed flourish-chart" data-src="visualisation/22428533">
     <script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img
@@ -11,7 +15,7 @@
 <h2>GRUPO II (Habituales y conocidas en ámbitos específicos y de expertos): 209. Stream Graph</h2>
 <p>El stream graph es útil para representar los cambios en una serie de variables a lo largo del tiempo,
     especialmente cuando la proporción entre los distintos factores cambian. En esta visualización utilizo datos del
-    mix de producción electrica de Alemania en enero de 2025. Los datos fueron descargados de <a
+    mix de producción eléctrica de Alemania en enero de 2025. Los datos fueron descargados de <a
         href="https://www.smard.de/en/downloadcenter/download-market-data/?downloadAttributes=%7B%22selectedCategory%22:1,%22selectedSubCategory%22:1,%22selectedRegion%22:%22DE%22,%22selectedFileType%22:%22CSV%22,%22from%22:1742770800000,%22to%22:1743717599999%7D">smard.de</a>,
     y muestran en incrementos de 15 minutos cuanta energía eléctrica (en MWh) se produjo en este país a partir de
     distintas fuentes, renovables y no renovables.</p>
@@ -52,12 +56,17 @@
 
 <h2>GRUPO III (Menos habituales o más específicos): 320. UpSet: Visualizing Intersecting Sets</h2>
 <p>UpSet es una técnica que facilita la interpretación de sets de datos con intersecciones. Se presenta como una
-    mejora con respecto a un diagrama de Venn, y es útil cuando el número de sets es mayor que 3, que se considera el límite de la representación clásica.</p>
+    mejora con respecto a un diagrama de Venn, y es útil cuando el número de sets es mayor que 3, que se considera el
+    límite de la representación clásica.</p>
 <p>Utilizo como conjunto de datos las propiedades de los personajes de Star Wars, obtenidos de esta fuente: <a
         href="https://www.kaggle.com/datasets/jsphyg/star-wars?resource=download">https://www.kaggle.com/datasets/jsphyg/star-wars?resource=download</a>.
-    En concreto, el diagrama muestra la intersección entre el planeta de origen y la especie de los 81 personajes contenidos en el dataset</p>
+    En concreto, el diagrama muestra la intersección entre el planeta de origen y la especie de los 81 personajes
+    contenidos en el dataset.</p>
 
-<p>La representación interactiva se puede regenerar subiendo el dataset <a href="https://fmorenoleira.github.io/M2_859/star_wars_df.csv" download>data</a> en <a href="https://upset.js.org/app/">upset.js.org/app</a>. Un screenshot de la aplicación completa puede verse <a href="https://fmorenoleira.github.io/M2_859/screenshot_live_aplication.png">aquí</a></p>
+<p>La representación interactiva se puede regenerar subiendo el dataset <a
+        href="https://fmorenoleira.github.io/M2_859/star_wars_df.csv" download>data</a> en <a
+        href="https://upset.js.org/app/">upset.js.org/app</a>. Un screenshot de la aplicación completa puede verse <a
+        href="https://fmorenoleira.github.io/M2_859/screenshot_live_aplication.png">aquí</a></p>
 <div class="upset2"><iframe
         src="https://upset.js.org/app/embed.html?p=N4IgdghgtgpiBcIDOAXCAnA%2Bgdw0zAJgGYAEAtCQDID2AxhADYgA0IBMSt6AlgA4rdqYBCG5Re1dChgESRdNSglUGHHkJEWICAFcUAC0kiAqkhjotMBjFhgUSBAG0QlHQGsYJAMpuAnrgYPC1ZKGG4IEgB5dABzCEgtABEMAxIANQh2YJAATWoCCC0ACXjvagZqLUiAI24yAHVSgGkYMGparQBRcXNJEgAFRl4IATA4VgBBSDduMG8-AKCtQYIoAEuSCahuAoZC1gBFHTqAcSESAClZ4VYAWQhaT3rZgh0tC4xLz4AhWbcHVgAYWoOjsJES1GobjerAASjBfFoAGLXZbUTzJWAKG4gJq%2BCokeE477fMgADi0gLIAGZ%2BpEtLCAExkRKMrSUeIEagkQGMHhIJDhYntCJImAoFDveIxbliiVaE6tcyMEhFHQADwZ1DMJAAKtxaJVWF4dLx0DZPKFMuZvG0PFoJhB8REvDBaDp0PsQBNVtxPQwBtxxZLWN8INwA9E4glQ9wYjEkOCMG4GHH9NJsr9qiQkZIUKCvbz%2BOG5v19BAkFBC-o-eg9CQAHNQbDjECJVpxbJFZXeXxgV4MPZaJrxUofdB1gEudrUEMgW7nBcGKtaLwQbAkRUT5Wr-Tbeb%2BRhLVj1GQxTxTASDjgOpAQABW9-SrRQ5oFlIgxdmhJgmuNEAANwgc8ojNDgpyXfQbV1RgAC9Zi6WDPRIb4eAIc9sjXWoxhIepzRxEdBx0KcLj7EhOnQJAjRAXkBSFTZ%2ByMVhoiouYmnwsADS0b58hrQlITcbiIFgzx7gYapiIVRhWnIyjqMSdBfHYOY0m1LQDm4AByT0ujAIhfETAA5Dg50oakaQAdm4t0PHlVgMiYABdVgRlfBx4EcZyQDNaheHc0BsB2AxYRGQR3McAAGAA6ABGMlmGimLGQSqKLK8qC0xQEKBDUjzooANhSgAWLyDAtEQAJgOIQAAX1YMx7CcUBIFgEQvH6TA1SrHF6HQAhZkYbgUEReAios1grBsdyQAigBqZKitmwqktmormEZOa1sZCz5uYakYt26kAFZZqO5gioWk6Ypi5gjrJWaYtq5hmugOBECKepMBglBIVmVtev6yBU2GhBCpASaoHCiL1uYca4vWgBOPaEccuqXta97PuMMA3DabAeowQHBpB%2BAwYh8LqWYGKtrOo7CqO8ajpRtHwFekQPswYFzUHcItABgbgZGs7wesSGnDW6lKaK6GjrWo6jtR57WYxkAOcMiBqkhPnCYFoaRrWkWpqcQr4uuqnmaVlq3pAdrMAU6gdm1vrdZJg3yZEGKduShmnvR62Oa54j6DsJ2icFhBKcNsWPKR47zrSlmrbajrdUCzTrEE1h%2BaBvWI4m0XwsZQrqWh6kSsTtnMcwWF8VnfRQ5dkbI-djyi720vy8tyvVc%2Bi4ZHLBuc5J5uC6calvZuo7GUVv3k7tkZDG2Hh4kH4mm-zo2PKKm6iqlzvZ6r5IDEUP1V-D%2BAR83xxt-OveZ%2BV-3PomBgsggFes51oeRuSqPwpuxkySoy8oaKA2FQpCEiPwQQYB-IgGGrwa2-VUCzFoCgAAknYcwZhUHQK0NsYQ8Af5Vk1PAYWNh%2BAjSIIwMwrBUzbElPAGKEVoYgEkFkJwIBs5ry0EnRWyBJo4KEAgUA8DrYNS0C8X8CBrp1RAAARx0OYIM4VUZAA"
         title="iframe upset" width="100%" height="800"></iframe></div>
